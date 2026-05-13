@@ -1,7 +1,7 @@
 # 🚀 Web Mastery — Full Stack Python Developer Journey
 
 <p align="center">
-  <img src="./assets/roadmap.png" />
+  <img src="./assets/images/roadmap.png" />
 </p>
 
 <p align="center">
