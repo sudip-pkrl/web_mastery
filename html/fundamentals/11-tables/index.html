@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    
+    <!--
+
+     TABLE TAGS:-
+
+        <table>
+        - Defines the entire table
+        - Container for all table elements
+
+        <tr>
+        - Table Row
+        - Creates a horizontal row in the table
+
+        <th>
+        - Table Header Cell
+        - Used for headings
+        - Bold and centered by default
+
+        <td>
+        - Table Data Cell
+        - Used for normal data inside table
+
+        <thead>
+        - Groups the header content of the table
+        - Usually contains <th> elements
+
+        <tbody>
+        - Groups the main body content
+        - Contains main table data
+
+        <tfoot>
+        - Groups footer content
+        - Usually used for totals or summaries
+
+        <caption>
+        - Adds a title/caption to the table
+        - Appears above the table
+
+        colspan=""
+        - Merges multiple columns into one cell
+        - Used inside <td> or <th>
+
+        rowspan=""
+        - Merges multiple rows into one cell
+        - Used inside <td> or <th>
+
+        border=""
+        - Adds border to table (old HTML method)
+        - CSS is preferred today
+
+        cellpadding=""
+        - Adds space inside cells (old method)
+
+        cellspacing=""
+        - Adds space between cells (old method)
+
+        width=""
+        - Sets table width
+
+        height=""
+        - Sets table height
+
+    -->
+    
+    <h1>Working Hours</h1>
+    
+    <table border="1" style="background-color: black;">
+
+        <tr align="center" style="background-color: aqua;">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        
+        <tr align="center" style="background-color: aquamarine;">
+            <td>Holiday</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Holiday</td>
+        </tr>
+    </table>
+
+    <br><br><hr><br>
+
+    <h2>Working Hours</h2>
+
+    <table border="1" style="background-color: black;">
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Sunday</th>
+        <td width="100" style="background-color: aquamarine;">Holiday</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Monday</th>
+        <td width="100" style="background-color: aquamarine;">9-5</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Tuesday</th>
+        <td width="100" style="background-color: aquamarine;">9-5</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Wednesday</th>
+        <td width="100" style="background-color: aquamarine;">9-5</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Thursday</th>
+        <td width="100" style="background-color: aquamarine;">9-5</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Friday</th>
+        <td width="100" style="background-color: aquamarine;">9-5</td>
+    </tr>
+
+    <tr align="center">
+        <th width="100" style="background-color: aqua;">Saturday</th>
+        <td width="100" style="background-color: aquamarine;">Holiday</td>
+    </tr>
+    
+    </table>
+
+    <br><br><hr><br>
+
+    <h3>Students Data</h3>
+
+    <table border="1" style="background-color: black; border-collapse: collapse;">
+
+    <caption style="color: black; padding: 10px;">
+        Student Information Table
+    </caption>
+
+    <colgroup>
+        <col style="background-color: lightyellow;">
+        <col style="background-color: lightcyan;">
+        <col style="background-color: lightpink;">
+        <col style="background-color: lightgreen;">
+        <col style="background-color: lightgray;">
+    </colgroup>
+
+    <thead>
+        <tr align="center" style="background-color: aqua;">
+            <th width="150">ID</th>
+            <th width="150">Name</th>
+            <th width="150">Age</th>
+            <th width="150">Course</th>
+            <th width="150">Grade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr align="center" style="background-color: aquamarine;">
+            <td>101</td>
+            <td>Ram</td>
+            <td>20</td>
+            <td>HTML</td>
+            <td>A</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>102</td>
+            <td>Shyam</td>
+            <td>21</td>
+            <td>CSS</td>
+            <td>A-</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>103</td>
+            <td>Hari</td>
+            <td>19</td>
+            <td>Javascript</td>
+            <td>B+</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>104</td>
+            <td>Sita</td>
+            <td>22</td>
+            <td>React</td>
+            <td>B</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>105</td>
+            <td>Gita</td>
+            <td>20</td>
+            <td>Tailwind CSS</td>
+            <td>B-</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>106</td>
+            <td>John</td>
+            <td>21</td>
+            <td>Python</td>
+            <td>A</td>
+        </tr>
+
+        <tr align="center" style="background-color: aquamarine;">
+            <td>107</td>
+            <td>Cena</td>
+            <td>25</td>
+            <td>FastAPI</td>
+            <td>A</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr align="center" style="background-color: lightgreen; font-weight: bold;">
+            <td colspan="4">Total Students</td>
+            <td>7</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+</body>
+</html>
