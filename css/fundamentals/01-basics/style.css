@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: yellow;
+}
+
+/* CSS on id */
+
+/*
+#p1{
+    color:red;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color:green
+}
+#p4{
+    color:white;
+*/
+
+
+/* CSS on class*/
+
+.odd{
+    color: aqua;
+}
+
+.even{
+    color:aquamarine;
+}
